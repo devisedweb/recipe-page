@@ -1,0 +1,172 @@
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Young Serif", serif;
+}
+
+.omelette-img {
+  width: 100%;
+  height: 10.688rem;
+  margin: 0;
+}
+
+.text-content {
+  margin: 0;
+  padding: 2rem;
+}
+
+.title {
+  width: 19.438rem;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: normal;
+  line-height: 100%;
+  color: #312e2c;
+}
+
+.title p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 150%;
+  color: #5f564d;
+}
+
+.preparation {
+  width: 19.438rem;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #fff7fb;
+}
+
+.preparation h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 100%;
+  color: #7a284e;
+}
+
+.preparation ul {
+  color: #5f564d;
+}
+
+.preparation ul li {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+.ingredients {
+  width: 19.438rem;
+  height: auto;
+}
+
+.ingredients h2 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 100%;
+  color: #854632;
+}
+
+.ingredients ul {
+  color: #5f564d;
+}
+
+.ingredients ul li {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+hr {
+  width: 19.438rem;
+  text-align: center;
+  color: #e3ddd7;
+}
+
+.instructions {
+  width: 19.438rem;
+  height: auto;
+}
+
+.instructions h2 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 100%;
+  color: #854632;
+}
+
+.instructions ol {
+  color: #5f564d;
+}
+
+.instructions ol li {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+.nutrition {
+  width: 19.438rem;
+  height: auto;
+}
+
+.nutrition h2 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 100%;
+  color: #854632;
+}
+
+.nutrition p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 150%;
+  color: #5f564d;
+}
+
+table tr .nutrition-ps {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 150%;
+  color: #5f564d;
+}
+
+table tr .values {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 150%;
+  color: #854632;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tr td {
+  border-bottom: 1px solid #e3ddd7;
+}
