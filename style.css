@@ -204,6 +204,10 @@ hr {
   margin-bottom: 1.5rem;
 }
 
+table {
+  width: 100%;
+}
+
 table tr .nutrition-ps {
   font-family: "Outfit", sans-serif;
   font-size: 1rem;
@@ -219,9 +223,6 @@ table tr .values {
   font-weight: bold;
   line-height: 150%;
   color: #854632;
-  padding-left: 1rem;
-  padding-right: 2rem;
-  /* margin-right: 2rem; */
 }
 
 table {
@@ -229,8 +230,6 @@ table {
 }
 
 table tr td {
-  /* padding-left: 2rem; */
-  /* padding-right: 2rem; */
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid #e3ddd7;
