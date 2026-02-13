@@ -306,3 +306,57 @@ table tr:last-child td {
     height: auto;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-color: #f3e5d7;
+    display: grid;
+    place-items: center;
+    padding: 128px 48px;
+  }
+
+  .card {
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 24px;
+  }
+
+  .omelette-img {
+    width: 41rem;
+  }
+
+  .text-content {
+    padding: 0;
+    width: 656px;
+  }
+
+  .title {
+    width: 41rem;
+  }
+
+  .preparation {
+    width: 41rem;
+    height: auto;
+  }
+
+  .ingredients {
+    width: 41rem;
+    height: auto;
+  }
+
+  hr {
+    width: 41rem;
+  }
+
+  .instructions {
+    width: 41rem;
+    height: auto;
+  }
+
+  .nutrition {
+    width: 41rem;
+    height: auto;
+  }
+}
