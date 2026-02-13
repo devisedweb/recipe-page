@@ -23,8 +23,10 @@ body {
 }
 
 .text-content {
-  margin: 0;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .title {
@@ -38,6 +40,7 @@ h1 {
   font-weight: normal;
   line-height: 100%;
   color: #312e2c;
+  margin-bottom: 1.5rem;
 }
 
 .title p {
@@ -46,6 +49,7 @@ h1 {
   font-weight: normal;
   line-height: 150%;
   color: #5f564d;
+  margin: 0;
 }
 
 .preparation {
@@ -62,10 +66,22 @@ h1 {
   font-weight: 500;
   line-height: 100%;
   color: #7a284e;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+span {
+  font-weight: bold;
 }
 
 .preparation ul {
   color: #5f564d;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.preparation ul li::marker {
+  color: #7a284e;
 }
 
 .preparation ul li {
@@ -73,6 +89,13 @@ h1 {
   font-size: 1rem;
   font-weight: normal;
   line-height: 150%;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  padding-left: 1rem;
+}
+
+.preparation ul li:last-child {
+  margin-bottom: 0;
 }
 
 .ingredients {
@@ -85,10 +108,18 @@ h1 {
   font-weight: normal;
   line-height: 100%;
   color: #854632;
+  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 .ingredients ul {
   color: #5f564d;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.ingredients ul li::marker {
+  color: #854632;
 }
 
 .ingredients ul li {
@@ -96,6 +127,13 @@ h1 {
   font-size: 1rem;
   font-weight: normal;
   line-height: 150%;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  padding-left: 1rem;
+}
+
+.ingredients ul li:last-child {
+  margin-bottom: 0;
 }
 
 hr {
@@ -114,10 +152,19 @@ hr {
   font-weight: normal;
   line-height: 100%;
   color: #854632;
+  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 .instructions ol {
   color: #5f564d;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.instructions ol li::marker {
+  color: #854632;
+  font-weight: bold;
 }
 
 .instructions ol li {
@@ -125,6 +172,12 @@ hr {
   font-size: 1rem;
   font-weight: normal;
   line-height: 150%;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.instructions ol li:last-child {
+  margin-bottom: 0;
 }
 
 .nutrition {
@@ -137,6 +190,8 @@ hr {
   font-weight: normal;
   line-height: 100%;
   color: #854632;
+  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 .nutrition p {
@@ -145,6 +200,8 @@ hr {
   font-weight: normal;
   line-height: 150%;
   color: #5f564d;
+  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 table tr .nutrition-ps {
@@ -153,6 +210,7 @@ table tr .nutrition-ps {
   font-weight: normal;
   line-height: 150%;
   color: #5f564d;
+  padding-left: 2rem;
 }
 
 table tr .values {
@@ -161,6 +219,9 @@ table tr .values {
   font-weight: bold;
   line-height: 150%;
   color: #854632;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 table {
@@ -168,5 +229,18 @@ table {
 }
 
 table tr td {
+  /* padding-left: 2rem; */
+  /* padding-right: 2rem; */
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid #e3ddd7;
+}
+
+table tr:first-child td {
+  padding-top: 0;
+}
+
+table tr:last-child td {
+  padding-bottom: 0;
+  border-bottom: 0;
 }
