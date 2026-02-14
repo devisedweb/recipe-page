@@ -10,10 +10,10 @@ body {
 }
 
 /* Line Styles */
-hr {
-  width: 19.438rem;
-  text-align: center;
-  color: #e3ddd7;
+.visual-line {
+  width: 100%;
+  height: 1px;
+  background-color: #e3ddd7;
 }
 
 /* Image Styles */
@@ -53,6 +53,7 @@ h1 {
   line-height: 150%;
   color: #5f564d;
   margin: 0;
+  margin-bottom: 2rem;
 }
 
 /* Preperation Styles */
@@ -64,7 +65,7 @@ h1 {
   background-color: #fff7fb;
 }
 
-.preparation h3 {
+.preparation h2 {
   font-family: "Outfit", sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
