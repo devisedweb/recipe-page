@@ -9,43 +9,30 @@ body {
   font-family: "Young Serif", serif;
 }
 
-/* Group Selectors & Common Styles */
-.omelette-img,
+/* Common Styles */
 h1,
-.title p,
-.preparation h2,
-.preparation ul,
-.ingredients h2,
-.ingredients ul,
-.instructions h2,
-.instructions ol,
-.nutrition h2,
-.nutrition p {
+h2,
+p,
+ul,
+ol {
   margin: 0;
 }
 
 h1,
-.preparation h2,
-.ingredients h2,
-.instructions h2,
-.nutrition h2 {
+h2 {
   line-height: 100%;
 }
 
-.title p,
-.preparation ul li,
-.ingredients ul li,
-.nutrition p {
+p,
+ul li {
   line-height: 150%;
 }
 
-.preparation ul,
-.ingredients ul {
+ul {
   padding-left: 1rem;
 }
 
-.preparation ul li,
-.ingredients ul li {
+ul li {
   margin-bottom: 0.5rem;
   margin-left: 0.5rem;
   padding-left: 1rem;
@@ -78,7 +65,7 @@ h1,
   height: auto;
 }
 
-h1 {
+.main-heading {
   font-size: 2.25rem;
   font-weight: normal;
   color: #312e2c;
@@ -309,7 +296,7 @@ table tr:last-child td {
     height: auto;
   }
 
-  h1 {
+  .main-heading {
     font-size: 2.5rem;
   }
 }
