@@ -6,7 +6,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Young Serif", serif;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* Common Styles */
@@ -21,6 +27,7 @@ ol {
 h1,
 h2 {
   line-height: 100%;
+  font-family: "Young Serif", serif;
 }
 
 p,
@@ -48,7 +55,8 @@ ul li {
 /* Image Styles */
 .omelette-img {
   width: 100%;
-  height: 10.688rem;
+  height: auto;
+  display: block;
 }
 
 /* Text Content Styles */
@@ -60,11 +68,6 @@ ul li {
 }
 
 /* Title Styles */
-.title {
-  width: 19.438rem;
-  height: auto;
-}
-
 .main-heading {
   font-size: 2.25rem;
   font-weight: normal;
@@ -73,7 +76,6 @@ ul li {
 }
 
 .title p {
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   color: #5f564d;
@@ -81,8 +83,6 @@ ul li {
 
 /* Preperation Styles */
 .preparation {
-  width: 19.438rem;
-  height: auto;
   padding: 1.5rem;
   border-radius: 12px;
   background-color: #fff7fb;
@@ -109,7 +109,6 @@ span {
 }
 
 .preparation ul li {
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: normal;
 }
@@ -119,11 +118,6 @@ span {
 }
 
 /* Ingredients Styles */
-.ingredients {
-  width: 19.438rem;
-  height: auto;
-}
-
 .ingredients h2 {
   font-size: 1.75rem;
   font-weight: normal;
@@ -140,7 +134,6 @@ span {
 }
 
 .ingredients ul li {
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: normal;
 }
@@ -150,11 +143,6 @@ span {
 }
 
 /* Intructions Styles */
-.instructions {
-  width: 19.438rem;
-  height: auto;
-}
-
 .instructions h2 {
   font-size: 1.75rem;
   font-weight: normal;
@@ -173,7 +161,6 @@ span {
 }
 
 .instructions ol li {
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 150%;
@@ -186,11 +173,6 @@ span {
 }
 
 /* Nutrition Styles */
-.nutrition {
-  width: 19.438rem;
-  height: auto;
-}
-
 .nutrition h2 {
   font-size: 1.75rem;
   font-weight: normal;
@@ -199,7 +181,6 @@ span {
 }
 
 .nutrition p {
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   color: #5f564d;
@@ -213,7 +194,6 @@ table {
 }
 
 table tr .nutrition-ps {
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 150%;
@@ -222,7 +202,6 @@ table tr .nutrition-ps {
 }
 
 table tr .values {
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   font-weight: bold;
   line-height: 150%;
@@ -262,7 +241,8 @@ table tr:last-child td {
   }
 
   .card {
-    width: auto;
+    max-width: 536px;
+    width: 100%;
     height: auto;
     background-color: white;
     padding: 2.5rem;
@@ -270,30 +250,15 @@ table tr:last-child td {
   }
 
   .omelette-img {
-    width: 33.5rem;
-    height: 18.75rem;
+    width: 100%;
+    height: auto;
+    display: block;
     margin-bottom: 2.5rem;
     border-radius: 12px;
   }
 
   .text-content {
     padding: 0;
-    width: 536px;
-  }
-
-  .title,
-  .preparation,
-  .ingredients,
-  .instructions,
-  .nutrition {
-    width: 33.5rem;
-  }
-
-  .preparation,
-  .ingredients,
-  .instructions,
-  .nutrition {
-    height: auto;
   }
 
   .main-heading {
@@ -303,19 +268,7 @@ table tr:last-child td {
 
 /* Desktop Styles */
 @media only screen and (min-width: 1440px) {
-  .omelette-img {
-    width: 41rem;
-  }
-
-  .text-content {
-    width: 656px;
-  }
-
-  .title,
-  .preparation,
-  .ingredients,
-  .instructions,
-  .nutrition {
-    width: 41rem;
+  .card {
+    max-width: 736px;
   }
 }
